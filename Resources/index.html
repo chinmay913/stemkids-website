@@ -5,6 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Resources/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Resources/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Resources/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/Resources/images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="/Resources/images/favicon" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;&display=swap"
       rel="stylesheet"
     />
@@ -20,6 +41,7 @@
     <title>Stem Kids</title>
   </head>
   <body>
+    <!-- ****************** Header section ******************** -->
     <section class="section-header">
       <header>
         <nav class="navbar navbar-expand-lg">
@@ -64,13 +86,56 @@
           <a class="btn btn-lg rounded-pill btn-warning" href="#"
             >View Courses</a
           >
-          <a class="btn btn-lg rounded-pill btn-outline-warning" href="#"
+          <a
+            class="btn btn-lg rounded-pill btn-outline-warning"
+            href="#section-offer"
             >Learn
           </a>
         </div>
       </header>
     </section>
 
+    <!-- ****************** what do we offer ******************** -->
+    <section id="section-offer" class="section-offer">
+      <h2>What do we offer</h2>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <ion-icon class="big-ion" name="aperture-outline"></ion-icon>
+            <h3>Creative lessions</h3>
+            <p>
+              We belive, having fun while learing is important. We help students
+              implement their imaginations in real life.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <ion-icon class="big-ion" name="ribbon-outline"></ion-icon>
+            <h3>Certified Teachers</h3>
+            <p>
+              Our trainers are highly educated. They are well trained in their
+              respective domain and have experiance in teaching.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <ion-icon class="big-ion" name="book-outline"></ion-icon>
+            <h3>Regular classes</h3>
+            <p>
+              We conduct regular classes on each school term. Our classes are
+              aligned with school calender.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <ion-icon class="big-ion" name="home-outline"></ion-icon>
+            <h3>OSHC / Holliday Classes</h3>
+            <p>
+              We are partnered with local schools for OSHC sessions. Also we
+              offer classes during holidays.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
