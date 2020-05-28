@@ -56,6 +56,9 @@
   nav a {
     font-size: 150%;
   }
+  .navbar {
+    padding: 0 3%;
+  }
   .header-text {
     top: 50%;
     left: 2%;

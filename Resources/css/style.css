@@ -90,10 +90,10 @@ header {
 }
 
 nav {
-  width: 80%;
-  margin: 0 10%;
-  display: flex;
-  position: absolute !important;
+  width: 100%;
+}
+.navbar {
+  padding: 0 10%;
 }
 
 nav a:link,
@@ -109,11 +109,48 @@ nav a:active {
   border-bottom: 2px solid #febe0b;
 }
 
+/* Sticky navi */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.897);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+  overflow-x: visible;
+}
+
+.sticky .main-nav {
+  margin-right: 20px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  color: #555;
+}
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+  color: rgb(170, 170, 170);
+}
+.sticky img {
+  height: 60px;
+}
+
+.sticky .ham-dark {
+  display: inline-block;
+  color: #555;
+}
+.sticky .ham {
+  display: none;
+}
 .logo {
   height: 100px;
   width: auto;
 }
-
+.ham-dark {
+  display: none;
+}
 .header-text {
   position: absolute;
   top: 40%;
