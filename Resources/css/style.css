@@ -145,7 +145,7 @@ nav a:active {
 }
 
 .section-offer {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 
 .section-offer p {
@@ -159,11 +159,47 @@ nav a:active {
 .courses-row {
   margin-bottom: 80px;
 }
-
+.section-courses {
+  background-color: #f0f0f0;
+}
 /* ******************************
 ******* contact Section **********
 ********************************* */
 
 .section-contact {
-  background-color: #b2fcff;
+  background-color: #ffffff;
+}
+
+/* ******************************
+******* footer Section **********
+********************************* */
+.section-footer {
+  background-color: #444c5b;
+  color: #ffffff;
+  font-size: 80%;
+}
+.footer-nav {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #cacaca;
+}
+
+.footer-contact {
+  text-align: left;
 }
