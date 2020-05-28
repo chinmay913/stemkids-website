@@ -60,4 +60,7 @@
     top: 50%;
     left: 2%;
   }
+  .section-courses h3 {
+    margin-left: 10px;
+  }
 }
