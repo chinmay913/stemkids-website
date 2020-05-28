@@ -240,3 +240,23 @@ nav a:active {
 .footer-contact {
   text-align: left;
 }
+
+/* ******************************
+******* animation ***************
+********************************* */
+
+.js--wp-1,
+.js--wp-code-img,
+.js--wp-code-text,
+.js--wp-robo-img,
+.js--wp-robo-text {
+  opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-code-img.animated,
+.js--wp-code-text.animated,
+.js--wp-robo-img.animated,
+.js--wp-robo-text.animated {
+  opacity: 1;
+}

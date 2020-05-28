@@ -12,11 +12,14 @@
     font-size: 1rem;
   }
   nav {
-    width: 94%;
-    margin: 0 3%;
+    width: 100%;
+    margin: auto;
   }
   nav a {
     font-size: 150%;
+  }
+  .navbar {
+    padding: 0 2%;
   }
   h3 {
     font-size: 1.5rem;

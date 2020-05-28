@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="/Resources/images/favicon/apple-touch-icon.png"
@@ -22,17 +26,7 @@
       href="/Resources/images/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="/Resources/images/favicon/site.webmanifest" />
-    <link rel="mask-icon" href="/Resources/images/favicon" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#2d89ef" />
-    <meta name="theme-color" content="#ffffff" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-    />
+    <link rel="stylesheet" href="/Vendors/css/animate.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -42,6 +36,7 @@
 
     <link rel="stylesheet" href="/Resources/css/style.css" />
     <link rel="stylesheet" href="/Resources/css/querries.css" />
+    <link rel="stylesheet" href="/Vendors/css/normalize.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <title>Stem Kids</title>
@@ -53,7 +48,7 @@
         <nav class="navbar navbar-expand-lg">
           <img
             class="logo animate__animated animate__fadeIn"
-            src="/Resources/images/stem kids logo.png"
+            src="/Resources/images/eve_logo.jpeg"
             alt="logo"
           />
 
@@ -72,29 +67,37 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto main-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link js--nav-home" href="#"
                   >Home <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link js--nav-about" href="#section-offer"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link js--nav-courses" href="#section-courses"
+                  >Courses</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link js--nav-contact" href="#section-contact"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </nav>
         <div class="container header-text">
           <h1>Making your child ready for tomorrow</h1>
-          <a class="btn btn-lg rounded-pill btn-warning" href="#"
+          <a
+            class="btn btn-lg rounded-pill btn-warning js--scroll-to-courses"
+            href="#section-courses"
             >View Courses</a
           >
           <a
-            class="btn btn-lg rounded-pill btn-outline-warning"
+            class="btn btn-lg rounded-pill btn-outline-warning js--scroll-to-offer"
             href="#section-offer"
             >Learn
           </a>
@@ -107,7 +110,7 @@
       <h2>What do we offer</h2>
 
       <div class="container-fluid">
-        <div class="row">
+        <div class="row js--wp-1">
           <div class="col-md-3">
             <ion-icon class="big-ion" name="aperture-outline"></ion-icon>
             <h3>Creative lessions</h3>
@@ -150,34 +153,40 @@
 
       <div class="container-fluid">
         <div class="row courses-row">
-          <div class="col-md-6 shadow m-auto p-3 bg-white rounded">
+          <div
+            class="col-md-6 shadow m-auto p-3 bg-white rounded js--wp-code-img"
+          >
             <img
               class="img-fluid"
               src="/Resources/images/coding.jpg"
               alt="robotics image"
             />
           </div>
-          <div class="col-md-4 m-auto">
+          <div class="col-md-4 m-auto js--wp-code-text">
             <h3 class="text-left">Coding class</h3>
             <p class="text-left">
               We offer coding lession for all age group. They will learn to use
               programming languages like Scratch, Python and many more to design
               their own games, animation and other projects. For more infomation
             </p>
-            <a class="btn btn-lg px-4 py-2 rounded-pill btn-warning" href="#"
+            <a
+              class="btn btn-lg px-4 py-2 rounded-pill btn-warning js--nav-contact"
+              href="#"
               >Free Trial</a
             >
           </div>
         </div>
         <div class="row courses-row">
-          <div class="col-md-6 order-md-2 shadow m-auto p-3 bg-white rounded">
+          <div
+            class="col-md-6 order-md-2 shadow m-auto p-3 bg-white rounded js--wp-robo-img"
+          >
             <img
               class="img-fluid"
               src="/Resources/images/robotics.jpg"
               alt="robotics image"
             />
           </div>
-          <div class="col-md-4 order-md-1 m-auto">
+          <div class="col-md-4 order-md-1 m-auto js--wp-robo-text">
             <h3 class="text-left">Robotics class</h3>
             <p class="text-left">
               Robots and Automation! Your robot comes alive! Kids will learn how
@@ -185,7 +194,9 @@
               basic blocks of robotics such as motor control and digital logic.
               For more details
             </p>
-            <a class="btn btn-lg px-4 py-2 rounded-pill btn-warning" href="#"
+            <a
+              class="btn btn-lg px-4 py-2 rounded-pill btn-warning js--nav-contact"
+              href="#"
               >Contact Us</a
             >
           </div>
@@ -249,9 +260,13 @@
           <div class="row">
             <div class="col-md-4">
               <ul class="footer-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">About us</a></li>
+                <li><a class="js--nav-home" href="#">Home</a></li>
+                <li>
+                  <a class="js--nav-courses" href="#section-courses">Courses</a>
+                </li>
+                <li>
+                  <a class="js--nav-about" href="#section-offer">About us</a>
+                </li>
               </ul>
             </div>
             <div class="col-md-5 order-md-1"></div>
