@@ -25,6 +25,15 @@
   .section-courses h3 {
     margin-top: 30px;
   }
+  .header-text {
+    top: 50%;
+    left: 2%;
+  }
+  nav a:hover,
+  nav a:active {
+    color: #cacaca;
+    border-bottom: 2px solid transparent;
+  }
 }
 @media screen and (max-width: 767px) {
   .section-header {
@@ -48,6 +57,7 @@
     font-size: 150%;
   }
   .header-text {
-    padding-left: 20px;
+    top: 50%;
+    left: 2%;
   }
 }
