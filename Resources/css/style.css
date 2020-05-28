@@ -159,3 +159,11 @@ nav a:active {
 .courses-row {
   margin-bottom: 80px;
 }
+
+/* ******************************
+******* contact Section **********
+********************************* */
+
+.section-contact {
+  background-color: #b2fcff;
+}
