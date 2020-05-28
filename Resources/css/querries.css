@@ -1,5 +1,14 @@
+@media screen and (max-width: 1450px) {
+  .container-fluid {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 1023px) {
-  body {
+  .container-fluid {
+    width: 95%;
+  }
+  .section-header {
     font-size: 1rem;
   }
   nav {
@@ -12,16 +21,23 @@
   h3 {
     font-size: 1.5rem;
   }
+
+  .section-courses h3 {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
-  body {
+  .section-header {
     font-size: 0.8rem;
   }
   section {
     padding: 40px 0;
   }
+  h2 {
+    font-size: 2rem;
+  }
   p {
-    font-size: medium;
+    font-size: 1rem;
     margin: 0 auto 50px 10px;
   }
   nav {
