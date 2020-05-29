@@ -78,6 +78,10 @@
   .section-courses h3 {
     margin-left: 10px;
   }
+
+  .section-testimony {
+    background-attachment: initial;
+  }
   .footer-contact {
     text-align: center;
     margin-bottom: 7px;
