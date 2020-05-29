@@ -24,7 +24,9 @@
   h3 {
     font-size: 1.5rem;
   }
-
+  .section-about h3 {
+    margin-top: 30px;
+  }
   .section-courses h3 {
     margin-top: 30px;
   }
@@ -53,7 +55,7 @@
     font-size: 2rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0 auto 50px 10px;
   }
   nav {
@@ -69,10 +71,13 @@
     top: 40%;
     left: 2%;
   }
-  .section-courses h3 {
+  .section-about h3 {
     margin-left: 10px;
   }
 
+  .section-courses h3 {
+    margin-left: 10px;
+  }
   .footer-contact {
     text-align: center;
     margin-bottom: 7px;
