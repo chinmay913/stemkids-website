@@ -97,6 +97,8 @@ header {
 
 nav {
   width: 100%;
+  text-transform: uppercase;
+  font-size: 80%;
 }
 .navbar {
   padding: 0 10%;
@@ -104,14 +106,14 @@ nav {
 
 nav a:link,
 nav a:visited {
-  color: #ffffff;
+  color: #cacaca;
   margin-right: 15px;
   border-bottom: 2px solid transparent;
   text-align: center;
 }
 nav a:hover,
 nav a:active {
-  color: #cacaca;
+  color: #ffffff;
   border-bottom: 2px solid #febe0b;
 }
 
@@ -133,11 +135,11 @@ nav a:active {
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-  color: #555;
+  color: #7c7c7c;
 }
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
-  color: rgb(170, 170, 170);
+  color: rgb(36, 36, 36);
 }
 .sticky img {
   height: 60px;
