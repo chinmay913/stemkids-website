@@ -40,6 +40,10 @@
 }
 @media screen and (max-width: 767px) {
   .section-header {
+    font-size: 1rem;
+    background-attachment: initial;
+  }
+  .header-text a {
     font-size: 0.8rem;
   }
   section {

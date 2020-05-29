@@ -82,6 +82,10 @@ header {
   background-image: linear-gradient(#0000009f, #0000009f),
     url("/Resources/css/bg_1.jpg");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
