@@ -1,6 +1,6 @@
 $(document).ready(function () {
   /* For the sticky navigation */
-  $(".section-offer").waypoint(
+  $(".js--sticky-nav").waypoint(
     function (direction) {
       if (direction == "down") {
         $("nav").addClass("sticky");
@@ -12,6 +12,21 @@ $(document).ready(function () {
       offset: "60px",
     }
   );
+  $(".navbar-toggler").click(function () {
+    let element = document.querySelector("nav");
+
+    if (element.classList) {
+      element.classList.toggle("nav-header-toggle");
+    } else {
+      // For IE9
+      var classes = element.className.split(" ");
+      var i = classes.indexOf("nav-header-toggle");
+
+      if (i >= 0) classes.splice(i, 1);
+      else classes.push("nav-header-toggle");
+      element.className = classes.join(" ");
+    }
+  });
 
   /* Scroll on buttons */
   $(".js--scroll-to-courses").click(function () {
